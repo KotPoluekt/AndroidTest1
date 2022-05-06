@@ -6,30 +6,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="18dp"
-    tools:context=".MainActivity">
+    tools:context=".CounterActivity">
 
-    <EditText
-        android:id="@+id/input"
-        android:layout_width="match_parent"
+    <TextView
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Text"
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Press me" />
+        android:layout_gravity="center"
+        android:textSize="24sp" />
 
     <Button
-        android:id="@+id/buttonNewActivity"
+        android:id="@+id/buttonDecrease"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start new activity" />
+        android:text="Вычесть 2"
+        />
 
     <Button
-        android:id="@+id/buttonOpenSite"
+        android:id="@+id/buttonDecreaseAndClose"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Open site" />
+        android:text="Вычесть 2 и закрыть"
+        />
 
 </LinearLayout>
